@@ -13,6 +13,7 @@ WORKDIR /app/
 ### This command provides detailed information about the Flutter installation, environment, and any missing dependencies.
 ### And it helps ensure that the necessary tools and configurations are in place for building Flutter applications.
 #
+RUN sudo usermod -a -G flutterusers root
 RUN flutter doctor -v
 ### This command enables web support in the Flutter SDK. 
 ### It configures the Flutter environment to include web-specific libraries and dependencies required for building Flutter web applications.
