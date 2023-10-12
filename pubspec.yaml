@@ -1,0 +1,62 @@
+name: article
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.6
+  path_provider: ^2.1.1
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  dartz: ^0.10.1
+  get_it: ^7.6.4
+  injectable: ^2.3.2
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.3
+  freezed: ^2.4.5
+  json_serializable: ^6.7.1
+  injectable_generator: ^2.4.1
+  build_runner: ^2.4.6
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+    - family: vazir
+      fonts:
+        - asset: assets/fonts/Vazir/Vazir-Thin-FD.ttf
+          weight: 100
+        - asset: assets/fonts/Vazir/Vazir-Light-FD.ttf
+          weight: 300
+        - asset: assets/fonts/Vazir/Vazir-FD.ttf
+          weight: 500
+        - asset: assets/fonts/Vazir/Vazir-Medium-FD.ttf
+          weight: 600
+        - asset: assets/fonts/Vazir/Vazir-Bold-FD.ttf
+          weight: 800
+        - asset: assets/fonts/Vazir/Vazir-Black-FD.ttf
+          weight: 900
+    - family: iranSans
+      fonts:
+        - asset: assets/fonts/Iran_sans/IranSans.ttf
+  
+
