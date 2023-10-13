@@ -34,7 +34,7 @@ RUN git clone https://github.com/${USER_NAME}/${REPO_NAME}.git -b ${BRANCH_NAME}
 # now set the path to flutter and build flutter tool and precache all necessary tools this is good
 # because as long as ADD doesn't invalidad these stages we don't have to rebuild this expensive part
 ENV PATH="$PATH:/flutter/bin"
-RUN flutter precache
+#RUN flutter precache
 
 # copy the flutter project and change dir into it
 COPY . ${WORKDIR}
