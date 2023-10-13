@@ -1,6 +1,6 @@
 ARG WORKDIR=/app
 
-FROM fischerscode/flutter:latest AS FLUTTER_BUILDER
+FROM growerp/flutter-sdk-image:latest AS FLUTTER_BUILDER
 
 ARG WORKDIR
 
@@ -12,7 +12,7 @@ COPY . ${WORKDIR}
 WORKDIR ${WORKDIR}
 
 #RUN flutter clean
-RUN flutter pub get
+RUN flutter pub get --no-example
 RUN flutter build web
 
 
