@@ -6,7 +6,7 @@ ARG WORKDIR=/app
 #
 # in the first stage just prepare a ubuntu container
 # and install the flutter tooling to build flutter apps
-FROM cirrusci/flutter:stable AS FLUTTER_BUILDER
+FROM instrumentisto/flutter:latest AS FLUTTER_BUILDER
 
 # setting the workdir
 ARG WORKDIR
