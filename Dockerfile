@@ -12,7 +12,7 @@ COPY . ${WORKDIR}
 WORKDIR ${WORKDIR}
 
 #RUN flutter clean
-RUN flutter pub get --no-example
+RUN flutter pub get -v
 RUN flutter build web
 
 
