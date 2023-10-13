@@ -170,12 +170,6 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "flutter_lints",
-      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///Users/macbook/development/sdk/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -248,12 +242,6 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "intl",
-      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/intl-0.18.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "io",
       "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/io-1.0.4",
       "packageUri": "lib/",
@@ -274,12 +262,6 @@
     {
       "name": "json_serializable",
       "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/json_serializable-6.7.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "lints",
-      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -530,7 +512,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-10-13T12:57:00.925007Z",
+  "generated": "2023-10-13T13:40:43.120102Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }
