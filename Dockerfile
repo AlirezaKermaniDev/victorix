@@ -6,7 +6,7 @@ ARG WORKDIR=/app
 #
 # in the first stage just prepare a ubuntu container
 # and install the flutter tooling to build flutter apps
-FROM ubuntu:latest AS FLUTTER_BUILDER
+FROM cirrusci/flutter:stable AS FLUTTER_BUILDER
 
 # setting the workdir
 ARG WORKDIR
@@ -28,12 +28,12 @@ ENV HTTP_TIMEOUT=5000
 
 # here we use ADD to invalidad cache of the docker stages below when there is a new commit/version in the
 # given flutter github repo on the given branch - watch out: depending on github api here!
-ADD https://api.github.com/repos/${USER_NAME}/${REPO_NAME}/git/refs/heads/${BRANCH_NAME} flutter_version.json
-RUN git clone https://github.com/${USER_NAME}/${REPO_NAME}.git -b ${BRANCH_NAME}
+# ADD https://api.github.com/repos/${USER_NAME}/${REPO_NAME}/git/refs/heads/${BRANCH_NAME} flutter_version.json
+# RUN git clone https://github.com/${USER_NAME}/${REPO_NAME}.git -b ${BRANCH_NAME}
 
 # now set the path to flutter and build flutter tool and precache all necessary tools this is good
 # because as long as ADD doesn't invalidad these stages we don't have to rebuild this expensive part
-ENV PATH="$PATH:/flutter/bin"
+# ENV PATH="$PATH:/flutter/bin"
 #RUN flutter precache
 
 # copy the flutter project and change dir into it
