@@ -41,8 +41,8 @@ COPY . ${WORKDIR}
 WORKDIR ${WORKDIR}
 
 # run flutter clean, pub get and then build for web
-RUN flutter clean
-RUN flutter pub get
+#RUN flutter clean
+#RUN flutter pub get
 RUN flutter build web
 
 
