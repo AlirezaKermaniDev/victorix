@@ -11,7 +11,7 @@ RUN flutter precache
 COPY . ${WORKDIR}
 WORKDIR ${WORKDIR}
 
-RUN flutter clean
+#RUN flutter clean
 RUN flutter pub get
 RUN flutter build web
 
