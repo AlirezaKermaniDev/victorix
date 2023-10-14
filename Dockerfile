@@ -1,6 +1,6 @@
 ARG WORKDIR=/app
 
-FROM growerp/flutter-sdk-image:latest AS FLUTTER_BUILDER
+FROM mobiledevops/flutter-sdk-image:3.10.1 AS FLUTTER_BUILDER
 
 ARG WORKDIR
 
