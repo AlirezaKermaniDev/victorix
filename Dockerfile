@@ -10,9 +10,7 @@ RUN flutter precache
 
 COPY . ${WORKDIR}
 WORKDIR ${WORKDIR}
-RUN chmod +x ${WORKDIR}
-RUN flutter clean
-RUN flutter pub get -v
+
 RUN flutter build web
 
 
