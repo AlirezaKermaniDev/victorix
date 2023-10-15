@@ -331,8 +331,13 @@ file:///Users/macbook/development/front-end/article/lib/domain/usecases/usecase.
 file:///Users/macbook/development/front-end/article/lib/injection/injection.config.dart
 file:///Users/macbook/development/front-end/article/lib/injection/injection.dart
 file:///Users/macbook/development/front-end/article/lib/main.dart
+file:///Users/macbook/development/front-end/article/lib/view/logic/article_detail_logic/article_detail_binding.dart
+file:///Users/macbook/development/front-end/article/lib/view/logic/article_detail_logic/article_detail_logic.dart
 file:///Users/macbook/development/front-end/article/lib/view/logic/main_logic/main_binding.dart
 file:///Users/macbook/development/front-end/article/lib/view/logic/main_logic/main_logic.dart
+file:///Users/macbook/development/front-end/article/lib/view/pages/article_detail_page/article_detail_page.dart
+file:///Users/macbook/development/front-end/article/lib/view/pages/article_detail_page/screens/article_detail_phone_page.dart
+file:///Users/macbook/development/front-end/article/lib/view/pages/article_detail_page/screens/article_detail_web_page.dart
 file:///Users/macbook/development/front-end/article/lib/view/pages/main_page/main_page.dart
 file:///Users/macbook/development/front-end/article/lib/view/pages/main_page/screens/main_phone_screen.dart
 file:///Users/macbook/development/front-end/article/lib/view/pages/main_page/screens/main_web_screen.dart
