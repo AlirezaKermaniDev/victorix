@@ -21,7 +21,7 @@ class AppWidget extends StatelessWidget {
       title: "Victorix",
       debugShowCheckedModeBanner: false,
       enableLog: true,
-      theme: AppTheme.light,
+      theme: AppTheme.dark,
       getPages: AppPages.routes,
       locale: const Locale("fa"),
       defaultTransition: Transition.noTransition,
