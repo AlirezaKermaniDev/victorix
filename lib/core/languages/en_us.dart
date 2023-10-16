@@ -7,4 +7,5 @@ const Map<String, String> en_US = {
   "Articles number": "Articles number",
   "Categories": "Categories",
   "View all": "View all",
+  "Search on articles": "Search on Articles",
 };

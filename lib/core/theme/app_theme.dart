@@ -4,17 +4,19 @@ class AppTheme {
   static ThemeData light = ThemeData(
     fontFamily: "vazir",
     colorScheme: ThemeData.light().colorScheme.copyWith(
-        background: const Color(0xfffafafa),
-        primary: Colors.blueAccent[400],
+        background: Colors.white,
+        onBackground: const Color(0xffF8F8FB),
+        primary: const Color(0xff0062F5),
         surface: Colors.black,
-        secondary: Colors.grey[600]),
+        secondary: const Color(0xffACAFB2)),
   );
   static ThemeData dark = ThemeData(
     fontFamily: "vazir",
     colorScheme: ThemeData.dark().colorScheme.copyWith(
         background: const Color(0xff15151A),
-        primary: Colors.blueAccent[400],
-        surface: const Color(0xfffafafa),
-        secondary: Colors.grey[600]),
+        onBackground:  Color.fromARGB(255, 12, 12, 15),
+        primary: const Color(0xff0062F5),
+        surface: Colors.white,
+        secondary: Colors.white70),
   );
 }

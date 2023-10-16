@@ -7,4 +7,5 @@ const Map<String, String> fa_pe = {
   "Articles number": "تعداد مقالات",
   "Categories": "موضوعات",
   "View all": "نمایش همه",
+  "Search on articles": "جستجو در مقالات ، ویدیو ها و ...",
 };
